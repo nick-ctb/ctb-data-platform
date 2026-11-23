@@ -1,0 +1,2 @@
+DROP INDEX core_banking.transactions_merchant_id_idx;
+CREATE INDEX transactions_merchant_id_idx ON core_banking.transactions (merchant_id);
